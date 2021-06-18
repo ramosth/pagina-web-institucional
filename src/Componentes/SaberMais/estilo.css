@@ -1,0 +1,27 @@
+.saber-mais {
+  padding: 20px;
+}
+
+.fundo-escuro {
+  background-color: #1abc9c;
+}
+
+.container-texto {
+  width: 450px;
+  max-width: 90%;
+  padding: 20px;
+}
+
+.link-externo {
+  text-align: center;
+}
+
+.link-externo a {
+  display: block;
+  padding: 16px;
+  margin-top: 15px;
+  border-radius: 45px;
+  border: 3px solid #2c3e50;
+  width: 250px;
+  max-width: 90%;
+}
