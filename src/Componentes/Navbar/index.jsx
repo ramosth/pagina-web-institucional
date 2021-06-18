@@ -4,8 +4,8 @@ const Navbar = (props) => {
   return (<nav className="navbar">
     <ul>
       {props.navbar.map(item =>
-        <li>
-          <a key={item.titulo} href={item.link}>{item.titulo}</a>
+        <li key={item.titulo}>
+          <a href={item.link}>{item.titulo}</a>
         </li>
       )}
     </ul>

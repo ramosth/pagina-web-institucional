@@ -1,0 +1,26 @@
+.interesses {
+  text-align: center;
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.cartao {
+  display: inline-block;
+}
+.cartao .corpo {
+  width: 250px;
+  min-width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1d84c1;
+  margin: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  border: 5px solid #024a75;
+  box-sizing: border-box;
+  border-radius: 45px;
+}

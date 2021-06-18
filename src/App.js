@@ -3,6 +3,7 @@ import Navbar from './Componentes/Navbar';
 import FundoEscuro from './Componentes/FundoEscuro';
 import imagemFrontEnd from './imagens/frontend.png';
 import PalavrasChave from './Componentes/PalavrasChave';
+import Interesses from './Componentes/Interesses';
 import SaberMais from './Componentes/SaberMais';
 import FormularioContato from './Componentes/FormularioContato';
 import Footer from './Componentes/Footer';
@@ -12,7 +13,7 @@ function App() {
   const menu = [
     {
       titulo: 'Palavras chave',
-      link: '#pala'
+      link: '#palavra chave'
     },
     {
       titulo: 'Para saber mais',
@@ -43,6 +44,7 @@ function App() {
         <Navbar navbar={menu} />
         <FundoEscuro src={fundoEscuro.src} alt={fundoEscuro.alt} titulo={fundoEscuro.titulo} />
         <PalavrasChave palavra={'Palavras chave'} />
+        <Interesses />
         <PalavrasChave palavra={'Para saber mais'} />
         <SaberMais texto={saber.texto} linkExterno={saber.linkExterno} href={saber.href} conteudo={saber.conteudo}/>
         <PalavrasChave palavra={'Contato'} />
